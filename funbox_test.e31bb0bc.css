@@ -39,7 +39,7 @@
   border-radius: 8px;
   -webkit-clip-path: polygon(13.3% 0%, 100% 0, 100% 100%, 0 100%, 0% 8.7%);
   clip-path: polygon(12.9% 0%, 100% 0, 100% 100%, 0 100%, 0% 8.55%);
-  background: url("/cat.200d3a79.png") #f2f2f2 no-repeat -28px 204px;
+  background: url("/cat.bc551cba.png") #f2f2f2 no-repeat -28px 204px;
   background-size: 368px 360px;
   pointer-events: none;
 }
@@ -130,7 +130,7 @@
   border-radius: 8px;
   -webkit-clip-path: polygon(13.3% 0%, 100% 0, 100% 100%, 0 100%, 0% 8.7%);
   clip-path: polygon(12.9% 0%, 100% 0, 100% 100%, 0 100%, 0% 8.55%);
-  background: url("/cat.200d3a79.png") #f2f2f2 no-repeat -28px 204px;
+  background: url("/cat.bc551cba.png") #f2f2f2 no-repeat -28px 204px;
   background-size: 368px 360px;
   pointer-events: none;
 }
@@ -221,7 +221,7 @@
   border-radius: 8px;
   -webkit-clip-path: polygon(13.3% 0%, 100% 0, 100% 100%, 0 100%, 0% 8.7%);
   clip-path: polygon(12.9% 0%, 100% 0, 100% 100%, 0 100%, 0% 8.55%);
-  background: url("/cat.200d3a79.png") #f2f2f2 no-repeat -28px 204px;
+  background: url("/cat.bc551cba.png") #f2f2f2 no-repeat -28px 204px;
   background-size: 368px 360px;
   pointer-events: none;
 }
@@ -312,7 +312,7 @@
   border-radius: 8px;
   -webkit-clip-path: polygon(13.3% 0%, 100% 0, 100% 100%, 0 100%, 0% 8.7%);
   clip-path: polygon(12.9% 0%, 100% 0, 100% 100%, 0 100%, 0% 8.55%);
-  background: url("/cat.200d3a79.png") #f2f2f2 no-repeat -28px 204px;
+  background: url("/cat.bc551cba.png") #f2f2f2 no-repeat -28px 204px;
   background-size: 368px 360px;
   pointer-events: none;
 }
@@ -406,7 +406,7 @@
   border-radius: 8px;
   -webkit-clip-path: polygon(13.3% 0%, 100% 0, 100% 100%, 0 100%, 0% 8.7%);
   clip-path: polygon(12.9% 0%, 100% 0, 100% 100%, 0 100%, 0% 8.55%);
-  background: url("/cat.200d3a79.png") #f2f2f2 no-repeat -28px 204px;
+  background: url("/cat.bc551cba.png") #f2f2f2 no-repeat -28px 204px;
   background-size: 368px 360px;
   pointer-events: none;
 }
@@ -460,7 +460,7 @@
   cursor: default;
 }
 .card.disabled .back .front {
-  background: linear-gradient(to bottom, rgba(225, 225, 225, 0.5) 0%, rgba(225, 225, 225, 0.5) 100%), url("/cat.200d3a79.png") #f2f2f2 no-repeat -28px 204px;
+  background: linear-gradient(to bottom, rgba(225, 225, 225, 0.5) 0%, rgba(225, 225, 225, 0.5) 100%), url("/cat.bc551cba.png") #f2f2f2 no-repeat -28px 204px;
   background-size: 368px 360px;
 }
 .card.disabled .back .front .info {
@@ -470,16 +470,21 @@
   color: #FFFF66;
 }
 @font-face {
-  font-family: "exo 2 thin";
-  src: url("/Exo2-Thin.8969efab.woff2") format("woff2"), url("/Exo2-Thin.4a816dd8.ttf") format("truetype");
+  font-family: "exo2.0-thin";
+  src: url("/exo2.0-thin.3d8b7b50.eot");
+  src: url("/exo2.0-thin.3d8b7b50.eot?#iefix") format("embedded-opentype"), url("/exo2.0-thin.ee78ad4f.woff2") format("woff2"), url("/exo2.0-thin.2a39a181.woff") format("woff"), url("/exo2.0-thin.35b8a70d.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: "lato thin";
   src: url("/Lato-Thin.710076cc.woff2") format("woff2"), url("/Lato-Thin.f2e145b7.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 body {
-  font-family: "exo 2 thin", "lato thin", sans-serif;
-  background: url("/Pattern.c398e418.png") repeat;
+  font-family: "exo2.0-thin", "lato thin", sans-serif;
+  background: url("/Pattern.7534a346.png") repeat;
   margin: 0;
 }
 

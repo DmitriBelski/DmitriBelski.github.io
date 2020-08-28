@@ -359,12 +359,12 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\assets\\cat.png":[["cat.200d3a79.png","assets/cat.png"],"assets/cat.png"],"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"scss/index.scss":[function(require,module,exports) {
+},{"./..\\assets\\img\\cat.png":[["cat.bc551cba.png","assets/img/cat.png"],"assets/img/cat.png"],"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"scss/index.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\assets\\fonts\\Exo2-Thin.woff2":[["Exo2-Thin.8969efab.woff2","assets/fonts/Exo2-Thin.woff2"],"assets/fonts/Exo2-Thin.woff2"],"./..\\assets\\fonts\\Exo2-Thin.ttf":[["Exo2-Thin.4a816dd8.ttf","assets/fonts/Exo2-Thin.ttf"],"assets/fonts/Exo2-Thin.ttf"],"./..\\assets\\fonts\\Lato-Thin.woff2":[["Lato-Thin.710076cc.woff2","assets/fonts/Lato-Thin.woff2"],"assets/fonts/Lato-Thin.woff2"],"./..\\assets\\fonts\\Lato-Thin.ttf":[["Lato-Thin.f2e145b7.ttf","assets/fonts/Lato-Thin.ttf"],"assets/fonts/Lato-Thin.ttf"],"./..\\assets\\Pattern.png":[["Pattern.c398e418.png","assets/Pattern.png"],"assets/Pattern.png"],"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"./..\\assets\\fonts\\exo2.0-thin.eot":[["exo2.0-thin.3d8b7b50.eot","assets/fonts/exo2.0-thin.eot"],"assets/fonts/exo2.0-thin.eot"],"./..\\assets\\fonts\\exo2.0-thin.woff2":[["exo2.0-thin.ee78ad4f.woff2","assets/fonts/exo2.0-thin.woff2"],"assets/fonts/exo2.0-thin.woff2"],"./..\\assets\\fonts\\exo2.0-thin.woff":[["exo2.0-thin.2a39a181.woff","assets/fonts/exo2.0-thin.woff"],"assets/fonts/exo2.0-thin.woff"],"./..\\assets\\fonts\\exo2.0-thin.ttf":[["exo2.0-thin.35b8a70d.ttf","assets/fonts/exo2.0-thin.ttf"],"assets/fonts/exo2.0-thin.ttf"],"./..\\assets\\fonts\\Lato-Thin.woff2":[["Lato-Thin.710076cc.woff2","assets/fonts/Lato-Thin.woff2"],"assets/fonts/Lato-Thin.woff2"],"./..\\assets\\fonts\\Lato-Thin.ttf":[["Lato-Thin.f2e145b7.ttf","assets/fonts/Lato-Thin.ttf"],"assets/fonts/Lato-Thin.ttf"],"./..\\assets\\img\\Pattern.png":[["Pattern.7534a346.png","assets/img/Pattern.png"],"assets/img/Pattern.png"],"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _card = require("./Card/card");
@@ -446,7 +446,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53826" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64740" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
